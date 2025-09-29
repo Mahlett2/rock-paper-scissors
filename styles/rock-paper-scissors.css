@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+  font-size: 28px;
+}
+.move-button {
+  background: transparent;
+  border-radius: 65px;
+  width: 130px;
+  height: 130px;
+  margin-right: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.buttons {
+  height: 70px;
+}
+.reset-score-button,
+.auto-play-button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+}
+.move-icon {
+  height: 50px;
+}
+.result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.score {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .move-button {
+    background: transparent;
+    border-radius: 48px;
+    width: 96px;
+    height: 96px;
+    margin-right: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  .buttons {
+    height: 58px;
+  }
+  .reset-score-button,
+  .auto-play-button {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+  }
+  .js-move {
+    font-size: 22px;
+  }
+  .move-icon {
+    height: 50px;
+  }
+  .result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .score {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .heading {
+    font-size: 44px;
+    font-weight: bold;
+  }
+  .move-button {
+    margin-right: 30px;
+    border-radius: 90px;
+    width: 180px;
+    height: 180px;
+    border: 3px solid white;
+    cursor: pointer;
+  }
+  .buttons {
+    height: 100px;
+  }
+  .reset-score-button,
+  .auto-play-button {
+    margin-right: 20px;
+    font-size: 32px;
+    border: none;
+  }
+  .js-move {
+    font-size: 28px;
+  }
+  .move-icon {
+    height: 90px;
+  }
+  .result {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .score {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+}
